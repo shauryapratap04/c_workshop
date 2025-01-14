@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,j,k;
+	for(i=1; i<=6; i++)
+	{
+		for(j=1; j<=i; j++)
+		{
+			printf("%d ", i);
+		}printf("\n");
+	}
+	for(i=6; i>=1; i--)
+	{
+		for(j=1; j<=i; j++)
+		{
+			printf("%d ",j);
+		}printf("\n");
+	}
+	for(i=1; i<=5; i++)
+	{
+		for(j=5; j>i; j--)
+		
+		printf(" ");
+		for(k=1; k<=2*i-1; k++)
+		printf("-");
+		printf("\n");
+	}
+}
+
+
+answer :
+
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+6 6 6 6 6 6
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+    -
+   ---
+  -----
+ -------
+---------
