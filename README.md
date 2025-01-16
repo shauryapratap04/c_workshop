@@ -1,25 +1,18 @@
 # c_workshop
-#include<stdio.h>
-void main()
-{
-	int b,j,s;
-	printf("enter size of values for array:");
-	scanf("%d",&b);
-	int brr[b];
-	printf("Enter array element\n");
-	for(j=0;j<b;j++)
-	{
-		printf("array key is %d\n",j);
-		scanf("%d",&brr[j]);
-	}
-	printf("enter the value to add: ");
-	scanf("%d",&s);
-	for(j=0;j<b;j++)
-	{
-		brr[j]+=s;
-	}
-	for(j=0;j<b;j++)
-	{
-		printf("new key element is %d\n",brr[j]);
-	}
-}
+Come, my love, I offer you my heart,
+I’ll give you my hands, soft and apart.
+Why this sadness, my beloved, tell me true,
+With parched lips and longing eyes, what troubles you?
+
+Why, why, my love, do you weep in despair?
+Come to me, come, for my heart is laid bare.
+
+Many have burned in the same cruel flame,
+Yet I remain steadfast, calling your name.
+Take my tired hands, hold them in yours,
+In this love, let us find the cure.
+
+You take my joy, and I’ll bear your pain,
+Together, let us live, through sunshine and rain.
+Come, my love, I offer you my heart,
+I give you my love, never to depart.
